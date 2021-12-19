@@ -5,4 +5,5 @@
 * batcheffect.R is for adjusting the batcheffect of the methylation data. 
 * annotaiton.R is for the annotation of the CpG sites
 * estimateCellCount.R is for adjusting the cell type of the blood samples. There are several reference to estimate it.
-* meqtl.R was for the analyzing mQTL.
+* meqtl.R is for the analyzing mQTL.
+* EWAS_linear.R is the linear regression by setting confouonders as above. There are too many linear models to run, so I used parallel computing by foreach function.
